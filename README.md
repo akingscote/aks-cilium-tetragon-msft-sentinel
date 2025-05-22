@@ -1,7 +1,7 @@
 # README
 I'm not likely to support this at any point. It's just intended to show how you can integrate all these components together.
 
-Check out the video demonstration [here](https://www.youtube.com/watch?v=23YzfkZqeEY) and supporting blog post at https://akingscote.co.uk/
+Check out the video demonstration [here](https://www.youtube.com/watch?v=23YzfkZqeEY) and supporting blog post at [https://akingscote.co.uk/](https://akingscote.co.uk/posts/2025-05-22-aks-cilium-tetragon-ebpf/)
 
 ## Prerequisites
 - Microsoft Azure subscription
