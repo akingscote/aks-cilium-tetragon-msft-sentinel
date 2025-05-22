@@ -1,0 +1,30 @@
+apiVersion: cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: http-ingress-visibility
+  namespace: pets
+spec:
+  endpointSelector:
+    matchLabels: {}
+  ingress:
+    - fromEntities:
+        - all
+    - toPorts:
+        - ports:
+            - port: "80"
+              protocol: "TCP"
+            - port: "8080"
+              protocol: "TCP"
+            - port: "8081"
+              protocol: "TCP"
+            - port: "3000"
+              protocol: "TCP"
+            - port: "3002"
+              protocol: "TCP"
+            - port: "30669"
+              protocol: "TCP"
+            - port: "30598"
+              protocol: "TCP"
+          rules:
+            http:
+              - {}

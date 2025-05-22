@@ -1,0 +1,15 @@
+azure:
+  tenant_id: xxxxxxxxxxxxxxxxxxxx
+  subscription_id: xxxxxxxxxxxxxxxx
+  location: uksouth
+  vnet:
+    address: ["192.168.0.0/24"]
+    system_subnet:  ["192.168.0.0/25"]
+    user_subnet:  ["192.168.0.128/25"]
+
+  kubernetes:
+    cluster_prefix: akingscote
+    default_node_size: Standard_D2_v3
+    prod:
+      name: production
+
